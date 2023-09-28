@@ -27,9 +27,9 @@ function writeCards(nameString,eventName) {
   return messages;
 }
 
-function countDown(number) {
-  while (number >= 0) {
-    console.log(number);
-    number--;
+function countDown(x) {
+  while (x >= 0) {
+    console.log(x);
+    x--;
   }
 }
